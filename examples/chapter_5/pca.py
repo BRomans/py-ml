@@ -3,7 +3,6 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from sklearn.model_selection import train_test_split
 
-
 # Load wine dataset
 from sklearn.preprocessing import StandardScaler
 
@@ -28,7 +27,7 @@ print(df_wine.head())
 X, y = df_wine.iloc[:, 1:].values, df_wine.iloc[:, 0].values
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)
 
-# Standarzie the data
+# Standardize the data
 sc = StandardScaler()
 X_train_std = sc.fit_transform(X_train)
 X_test_std = sc.transform(X_test)
