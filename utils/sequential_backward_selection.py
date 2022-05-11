@@ -5,7 +5,7 @@ from sklearn.metrics import accuracy_score
 import numpy as np
 
 
-class SBS():
+class SBS:
 
     def __init__(self, estimator, k_features, scoring=accuracy_score, test_size=0.25, random_state=1):
         self.scoring = scoring
