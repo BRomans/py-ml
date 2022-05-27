@@ -1,6 +1,6 @@
 from scipy.spatial.distance import pdist, squareform
 from scipy.linalg import eigh
-from scipy.stats import exp
+from numpy import exp
 import numpy as np
 
 
