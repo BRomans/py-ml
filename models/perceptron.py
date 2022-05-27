@@ -2,7 +2,7 @@ import numpy as np
 
 
 class Perceptron(object):
-    """ Perceptron classifier.
+    """ Perceptron classifier from Chapter 1.
 
     Parameters
     ----------
